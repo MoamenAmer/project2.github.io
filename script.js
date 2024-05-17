@@ -65,7 +65,7 @@ async function getResult(disease) {
         displayResult(description);
     } catch (error) {
         console.error('Error fetching data:', error);
-        resultContainer.textContent = '<p>An error occurred. Please try again later.</p>';
+        resultContainer.innerHTML = '<p>An error occurred. Please try again later.</p>';
     }
 }
 

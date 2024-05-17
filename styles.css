@@ -24,7 +24,7 @@ body {
     --navb: rgb(167, 126, 16);
     --nav:#7979792c;
     --container:#7979792c;
-    --response:#fff;
+    --response:rgb(255,255,255);
     transition: 0.5s;
 }
 .wall{
